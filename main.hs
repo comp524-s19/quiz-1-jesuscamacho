@@ -1,1 +1,1 @@
-finalGrade a b = (sum a * sum b) `div` sum b 
+finalGrade a b = (sum [x*y | x <-a, y<- b] ) `div` sum b 
